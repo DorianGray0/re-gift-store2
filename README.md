@@ -1,1 +1,1 @@
-# re-gift-store2
+# re-gift-store
