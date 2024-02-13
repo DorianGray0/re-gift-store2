@@ -4,21 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gift store 🎁</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- main navigation -->
-      <nav>
-        <a href="./index.html">logo</a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Blogs</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <!-- main navigation -->
+        <nav class="header-nav">
+          <a class="header-nav-logo" href="./index.html">logo</a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a class="nav-item-link" href="./index.html">Home</a></li>
+            <li class="header-nav-item"><a class="nav-item-link" href="">About Us</a></li>
+            <li class="header-nav-item"><a class="nav-item-link" href="">Services</a></li>
+            <li class="header-nav-item"><a class="nav-item-link" href="">Blogs</a></li>
+          </ul>
+        </nav>
 
-      <button type="button">Gift Finder</button>
+        <button class="header-nav-btn" type="button">Gift Finder</button>
+      </div>
     </header>
 
     <main>
