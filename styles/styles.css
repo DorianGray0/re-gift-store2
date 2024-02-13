@@ -366,7 +366,7 @@ button {
 
 .sign-btn:hover,
 .sign-btn:focus {
-  padding: 21px 26px;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 /* ----------BLOGS----------- */
@@ -427,6 +427,10 @@ button {
   line-height: var(--regular-lh);
   color: var(--secondary-text-color);
 }
+
+/* .blogs-article-link:hover,
+.blogs-article-link:focus {
+} */
 
 /* ---------------------------SUGGESION------------ */
 
